@@ -1,0 +1,114 @@
+<resources>
+
+    <string name="alertDialog_title">Delete Item</string>
+    <string name="alertDialog_message">Would you like to delete this menu item?</string>
+    <string name="alertDialog_neg">No</string>
+    <string name="alertDialog_pos">Yes</string>
+    <string name="addItem_activityTitle">Add a menu item!</string>
+    <string name="foodName_label">Food Name:</string>
+    <string name="foodDescription_label">Food Description.:</string>
+    <string name="ingredients_label">Ingredients:</string>
+    <string name="calories_label">Calories:</string>
+    <string name="link_label">Link URL:</string>
+    <string name="submit_button">Submit</string>
+    <string name="app_name">InClass_5_2RecyclerView_Card</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="news_placeholder">News</string>
+    <string name="foods_info_placeholder">Info</string>
+
+    <string name="info_placeholder"></string>
+    <string name="title_placeholder">Item Title</string>
+    <string-array name="food_titles">
+        <item>
+لازانيا</item>
+        <item>سلمون مشوي</item>
+        <item>برجر</item>
+        <!--    <item>Bowling</item>-->
+        <item>ساندوتش دجاج بافلو</item>
+        <item>أجنحة دجاج</item>
+        <item>دجاج فوق أرز</item>
+        <item>بيتزا</item>
+        <item>شاورما</item>
+        <item>شريحة لحم</item>
+        <item>الجنرال تسو</item>
+        <item>دجاج مشوي</item>
+
+    </string-array>
+    <string-array name="food_Description">
+        <item>طبق مكرونة من القمح الكامل غني وكريمي محشو طبقة تلو طبقة بالبصل الطازج والثوم ، ومغطاة بصلصة طرية ومغطاة بجبن الموزاريلا المستوردة عالية الجودة!</item>
+        <item>إذا كان لحم السلمون يتقشر - بمعنى ، فإنه ينفصل بسهولة على طول الخطوط البيضاء التي تمتد عبر الفيليه (شرائح من دهن السمك)!</item>
+        <item>برجر ضخم واحد أو ثلاثي مع جميع المكونات ، جبن ، خس ، طماطم ، بصل وصوص خاص أو مايونيز!</item>
+        <item>كومة من شرائح الدجاج المغطاة بصلصة البافلو الحارة على الخبز الذي تختاره مع الخس والطماطم والخيار وصلصة الرانش!</item>
+        <item>يتم قليها بشكل عام ثم تغطيتها أو غمسها في صلصة تتكون من صلصة الفلفل الحار بالخل والزبدة المذابة قبل التقديم!</item>
+        <item>الدجاج متبل بالأعشاب والليمون والبهارات. الأرز الذهبي الصلصة بيضاء وكريمة من أي وقت مضى!</item>
+        <item>طبق من عجينة الخبز مغطى بمزيج من زيت الزيتون ، الزعتر ، الطماطم ، الزيتون ، الموزاريلا أو الجبن ، والعديد من المكونات الأخرى!</item>
+        <item>الشاورما عبارة عن قطع رقيقة من اللحم مثل الدجاج ولحم البقر والماعز ولحم الضأن وأحيانًا الديك الرومي ملفوفة في قطعة كبيرة من الخبز أو الخبز المطبوخ على البخار أو التسخين!</item>
+        <item>شريحة اللحم الجيدة تكون طرية ومليئة بالنكهة وتحتوي على أقل قدر من الدهون!</item>
+        <item>طبق دجاج مقلي حلو وحار!</item>
+        <item>تُشوى قطع الدجاج حتى تصبح مقرمشة ومتفحمة جيدًا ، ثم قدّمها جنبًا إلى جنب مع صلصة ليلي البيضاء الرائعة!</item>
+
+    </string-array>
+    <string-array name="food_images">
+        <item>@drawable/lasagna</item>
+        <item>@drawable/broiledsalmon</item>
+        <item>@drawable/cheeseburger</item>
+        <item>@drawable/buffalochickensandwich</item>
+        <item>@drawable/chickenwings</item>
+        <item>@drawable/chickenoverrice</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/shawarma</item>
+        <item>@drawable/steak</item>
+        <item>@drawable/generaltso</item>
+        <item>@drawable/grilledchicken</item>
+        <item>@drawable/customfood</item>
+
+    </string-array>
+    <string-array name="food_ingredients">
+        <item>مصنوعة من طبقات مكدسة من اللازانيا بالتناوب مع حشوات مثل راجو (اللحم المفروم وصلصة الطماطم) والخضروات والجبن (والتي قد تشمل الريكوتا والموزاريلا والبارميزان) والتوابل والتوابل مثل التوابل الإيطالية مثل الثوم والأوريجانو والريحان</item>
+        <item>سمك السلمون والبقدونس والشبت والريحان والطرخون والمريمية وإكليل الجبل وأوراق الغار والزعتر والكزبرة والشمر</item>
+        <item>تشاك لحم بقري عالي الجودة في مزيج (لحم حتى دهون) ، خس ، طماطم ، جبن ، خبز</item>
+        <item>2 صدور دجاج منزوعة العظم والجلد ، دقيق لجميع الأغراض ، نشا ذرة
+مسحوق الثوم ، مسحوق البصل ، ملح البابريكاكوشر ، الفلفل المطحون الطازج ، صلصة فرانك وينج ، حليب اللوز ، مقسم (أو حليب خالي الدسم) ، بيض ، رذاذ زيت الطبخ ، صلصة فرانك وينج</item>
+        <item>أجنحة دجاج ، بيكنج بودر خالي من الألمنيوم ، فلفل أسود ، بابريكا ، ملح</item>
+        <item>دجاج ، خس ، طماطم ، صوص أبيض ، صوص حار</item>
+        <item>عجين ، دقيق ، طماطم ، موتزاريلا ، صلصة طماطم ، ريحان ، زيت زيتون</item>
+        <item>دجاج ، خبز بيتا ، خس ، طماطم ، صوص أبيض ، صوص حار</item>
+        <item>شريحة لحم ، فلفل أسود متشقق وملح كوشير ، بعض الأعشاب المفرومة مثل الزعتر أو إكليل الجبل أو المريمية </item>
+        <item>دجاج ، صوص ، أرز ، خضروات ، سمسم ، بيض ، ثوم ، فلفل حار ، صوص هويسين ، صويا صوص ، بصل أخضر</item>
+        <item>ملح كوشير ، فلفل أسود مطحون طازج ، بابريكا (بابريكا حلوة أو مدخنة) ، كمون ، كزبرة ، مسحوق ثوم ، مسحوق بصل.</item>
+
+    </string-array>
+    <string-array name="food_calories">
+        <item>Save translation
+433 كالوري</item>
+        <item>300 كالوري</item>
+        <item>700 كالوري</item>
+        <item>540 كالوري</item>
+        <item>300 كالوري</item>
+        <item>638 كالوري</item>
+        <item>290 كالوري</item>
+        <item>529 كالوري</item>
+        <item>523 كالوري</item>
+        <item>643 كالوري</item>
+        <item>485 كالوري</item>
+
+    </string-array>
+
+    <string-array name="food_link">
+        <item>https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/</item>
+        <item>https://healthyrecipesblogs.com/broiled-salmon/</item>
+        <item>https://www.aspicyperspective.com/best-hamburger-patty-recipe/</item>
+        <item>https://www.franksredhot.com/en-us/recipes/franks-redhot-buffalo-chicken-sandwich</item>
+        <item>https://www.allrecipes.com/recipes/663/meat-and-poultry/chicken/chicken-wings/</item>
+        <item>https://thereisfoodathome.com/recipes/chicken-over-rice</item>
+        <item>https://www.simplyrecipes.com/recipes/homemade_pizza/</item>
+        <item>https://www.thespruceeats.com/make-shawarma-at-home-2356016</item>
+        <item>https://natashaskitchen.com/pan-seared-steak/</item>
+        <item>https://www.recipetineats.com/general-tsos-chicken/</item>
+        <item>https://www.jessicagavin.com/grilled-chicken/</item>
+
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

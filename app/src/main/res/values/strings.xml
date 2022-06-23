@@ -1,0 +1,114 @@
+<resources>
+
+        <string name="alertDialog_title">Delete Item</string>
+        <string name="alertDialog_message">Would you like to delete this menu item?</string>
+        <string name="alertDialog_neg">No</string>
+        <string name="alertDialog_pos">Yes</string>
+        <string name="addItem_activityTitle">Add a menu item!</string>
+        <string name="foodName_label">Food Name:</string>
+        <string name="foodDescription_label">Food Description.:</string>
+        <string name="ingredients_label">Ingredients:</string>
+        <string name="calories_label">Calories:</string>
+        <string name="link_label">Link URL:</string>
+        <string name="submit_button">Submit</string>
+    <string name="app_name">InClass_5_2RecyclerView_Card</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="news_placeholder">News</string>
+    <string name="foods_info_placeholder">Info</string>
+
+    <string name="info_placeholder"></string>
+    <string name="title_placeholder">Item Title</string>
+
+    <string-array name="food_titles">
+        <item>Lasagna</item>
+        <item>Broiled Salmon</item>
+        <item>Burger</item>
+        <!--    <item>Bowling</item>-->
+        <item>Buffalo Chicken Sandwich</item>
+        <item>Chicken Wings</item>
+        <item>Chicken Over Rice</item>
+        <item>Pizza</item>
+        <item>Shawarma</item>
+        <item>Steak</item>
+        <item>General Tso</item>
+        <item>Grilled Chicken</item>
+
+
+    </string-array>
+    <string-array name="food_Description">
+        <item>A rich and creamy whole-wheat pasta dish filled layer by layer with refreshingly fresh onions and garlic, lathered in a succulent sauce and topped with imported, premium quality mozzarella!</item>
+        <item>If the flesh of the salmon flakes—meaning, it separates easily along the white lines that run across the fillet (strips of fish fat)!</item>
+        <item>A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise!</item>
+        <item>A pile of chicken strips coated in spicy buffalo sauce on the bread of your choosing along with lettuce, tomatoes, cucumbers, and ranch dressing!</item>
+        <item>Is generally deep-fried and then coated or dipped in a sauce consisting of a vinegar-based cayenne pepper hot sauce and melted butter prior to serving!</item>
+        <item>The chicken is marinated with herbs, lemon, and spices; the rice golden; the sauce, as white and creamy as ever!</item>
+        <item>Dish of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients!</item>
+        <item>Shawarma is thinly sliced cuts of meat, like chicken, beef, goat, lamb, and sometimes turkey rolled into a large piece of flatbread or pita that has been steamed or heated!</item>
+        <item>A good steak is juicy, tender, loaded with flavor, and has a minimum amount of fat!</item>
+        <item>A sweet and spicy deep-fried chicken dish!</item>
+        <item>Grill pieces of chicken until crispy and nicely charred, then serve them alongside Lilly\'s terrific white sauce!</item>
+
+    </string-array>
+    <string-array name="food_images">
+        <item>@drawable/lasagna</item>
+        <item>@drawable/broiledsalmon</item>
+        <item>@drawable/cheeseburger</item>
+        <item>@drawable/buffalochickensandwich</item>
+        <item>@drawable/chickenwings</item>
+        <item>@drawable/chickenoverrice</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/shawarma</item>
+        <item>@drawable/steak</item>
+        <item>@drawable/generaltso</item>
+        <item>@drawable/grilledchicken</item>
+        <item>@drawable/customfood</item>
+
+    </string-array>
+    <string-array name="food_ingredients">
+        <item>Made of stacked layers of lasagna alternating with fillings such as ragù (ground meats and tomato sauce), vegetables,cheeses (which may include ricotta, mozzarella, and parmesan), and seasonings and spices, like Italian seasoning, such as garlic, oregano and basil.</item>
+        <item>Salmon, parsley, dill, basil, tarragon, sage, rosemary, bay leaves, thyme, cilantro and fennel</item>
+        <item>=High-grade beef chuck in an 80/20 mix (meat to fat), lettuce, tomatoes, cheese, buns</item>
+        <item>2 boneless, skinless chicken breasts, all-purpose flour, cornstarch
+garlic powder, onion powder, and paprikakosher salt, freshly ground pepper, Frank\'s Wing Sauce, almond milk, divided (or skim milk), egg, oil cooking spray, Frank\'s Wing Sauce</item>
+        <item>chicken wings, aluminum-free baking powder, black pepper, paprika, salt</item>
+        <item>Chicken, lettuce, tomatoes,white sauce, hot sauce</item>
+        <item>dough, flour,tomato,mozzarella,tomato sauce, basil, olive oil</item>
+        <item>Chicken, pita bread,lettuce, tomatoes, white sauce ,hot sauce,</item>
+        <item>steak,reshly cracked black pepper and kosher salt, some chopped herbs such as thyme, rosemary or sage </item>
+        <item>Chicken, sauce, rice, vegetables, sesame, egg, garlic, chili pepper, hoisin sauce, soy sauce, scallion</item>
+        <item>Kosher salt, Freshly ground black pepper, Paprika (Sweet or smoked paprika), Cumin, Coriander, Garlic powder, Onion powder.</item>
+
+    </string-array>
+    <string-array name="food_calories">
+        <item>433 calories</item>
+        <item>300 calories</item>
+        <item>700 calories</item>
+        <item>540 calories</item>
+        <item>300 calories</item>
+        <item>638 calories</item>
+        <item>290 calories</item>
+        <item>529 calories</item>
+        <item>523 calories</item>
+        <item>643 calories</item>
+        <item>485 calories</item>
+
+    </string-array>
+
+    <string-array name="food_links">
+        <item>https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/</item>
+        <item>https://healthyrecipesblogs.com/broiled-salmon/</item>
+        <item>https://www.aspicyperspective.com/best-hamburger-patty-recipe/</item>
+        <item>https://www.franksredhot.com/en-us/recipes/franks-redhot-buffalo-chicken-sandwich</item>
+        <item>https://www.allrecipes.com/recipes/663/meat-and-poultry/chicken/chicken-wings/</item>
+        <item>https://thereisfoodathome.com/recipes/chicken-over-rice</item>
+        <item>https://www.simplyrecipes.com/recipes/homemade_pizza/</item>
+        <item>https://www.thespruceeats.com/make-shawarma-at-home-2356016</item>
+        <item>https://natashaskitchen.com/pan-seared-steak/</item>
+        <item>https://www.recipetineats.com/general-tsos-chicken/</item>
+        <item>https://www.jessicagavin.com/grilled-chicken/</item>
+
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
